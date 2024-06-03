@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import DatePicker from './containers/DatePicker';
+import Earnings from './containers/Earnigs';
+import Table from './containers/Table';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo}  className="App-logo" alt="logo" />
-        <p>
-          Edit   <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <>
+    <h1>Gaon Ki Litti</h1>
+    <DatePicker />
+    <Earnings />
+    <Table />
+   </> 
+  )
 }
 
 export default App;
