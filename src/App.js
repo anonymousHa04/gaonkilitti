@@ -5,7 +5,7 @@ import Table from './containers/Table';
 
 function App() {
   return (
-   <>
+   <div className='Container'>
     <h1>Gaon Ki Litti</h1>
     {/* total earnings By far */}
     <h1>Total Earnings: </h1>
@@ -20,7 +20,8 @@ function App() {
     {/* toggle button/ dropdown to switch */}
 
     {/* sold items */}
-   </> 
+    <Table />
+   </div> 
   )
 }
 
