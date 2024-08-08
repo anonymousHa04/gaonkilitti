@@ -7,8 +7,13 @@ function App() {
   return (
    <>
     <h1>Gaon Ki Litti</h1>
+    {/* total earnings By far */}
+    {/* total earnings this week */}
     <DatePicker />
-    <Earnings />
+    {/* Total items bought i.e cost price */}
+    <Earnings /> {/* Total earnings for today*/}
+
+    {/* sold items */}
     <Table />
    </> 
   )
