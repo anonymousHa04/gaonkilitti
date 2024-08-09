@@ -3,6 +3,7 @@ import DatePicker from './containers/DatePicker';
 import Earnings from './components/Earnigs';
 import Table from './containers/Table';
 import Dropdown from './components/Dropdown';
+// import { Counter } from './features/counter/Counter';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
     <Dropdown title="Buy Or Sell" />
     {/* sold items */}
     <Table />
+
+    {/* <Counter /> */}
    </div> 
   )
 }
