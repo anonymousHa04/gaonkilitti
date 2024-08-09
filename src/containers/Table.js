@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { useSelector } from "react-redux";
 
-const Table = ({title}) => {
+
+const Table = () => {
+    const dropdown =  useSelector((state) => state.dropdown);
     const [rows, setRows] = useState([]);
 
     const addRow = () => {
@@ -15,7 +18,7 @@ const Table = ({title}) => {
 
     return (
         <div>
-            <h4>Table for {title}</h4>
+            <h4>Table for {dropdown.dropdownValue}</h4>
             <table>
                 <thead>
                     <tr>
