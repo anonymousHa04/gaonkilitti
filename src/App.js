@@ -2,6 +2,7 @@ import './App.css';
 import DatePicker from './containers/DatePicker';
 import Earnings from './components/Earnigs';
 import Table from './containers/Table';
+import Dropdown from './components/Dropdown';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
     <Earnings /> {/* Total earnings for today*/}
 
     {/* toggle button/ dropdown to switch */}
-
+    <Dropdown title="Buy Or Sell" />
     {/* sold items */}
     <Table />
    </div> 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Table = () => {
+const Table = ({title}) => {
     const [rows, setRows] = useState([]);
 
     const addRow = () => {
@@ -15,6 +15,7 @@ const Table = () => {
 
     return (
         <div>
+            <h4>Table for {title}</h4>
             <table>
                 <thead>
                     <tr>
